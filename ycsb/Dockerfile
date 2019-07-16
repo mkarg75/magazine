@@ -9,4 +9,5 @@ RUN tar xzf ycsb-0.15.0.tar.gz -C ycsb --strip-components 1
 RUN yum install -y redis
 RUN yum install -y python-elasticsearch
 RUN yum install -y numpy
+RUN yum install -y git
 RUN git clone https://github.com/cloud-bulldozer/snafu /opt/snafu
