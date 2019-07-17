@@ -8,4 +8,5 @@ RUN yum install -y postgresql11
 RUN yum install -y redis
 RUN yum install -y python-elasticsearch
 RUN yum install -y numpy
+RUN ln -s /usr/pgsql-11/bin/pgbench /usr/bin/pgbench
 RUN git clone https://github.com/cloud-bulldozer/snafu /opt/snafu
