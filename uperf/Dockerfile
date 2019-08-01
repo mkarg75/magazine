@@ -7,6 +7,6 @@ RUN yum --enablerepo=ndokos-pbench install -y pbench-uperf
 RUN yum install -y redis
 RUN yum install -y git python-pip
 RUN pip install --upgrade pip
-RUN pip install -y "elasticsearch>=6.0.0,<=7.0.2"
+RUN pip install "elasticsearch>=6.0.0,<=7.0.2"
 RUN yum install -y numpy
 RUN git clone https://github.com/cloud-bulldozer/snafu /opt/snafu
