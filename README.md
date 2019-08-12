@@ -17,4 +17,4 @@ The image built is based on [fio's Dockerfile](fio/Dockerfile) and the build con
 
 ## Adding new images
 
-Feel free to submit a PR, and we'll take care of automation setup in Quay. 
+Feel free to submit a PR and tag @aakarshg, and he'll take care of automation setup in Quay. 
