@@ -8,4 +8,4 @@ RUN yum install -y pbench-fio
 RUN yum install -y git python-pip
 RUN pip install --upgrade pip
 RUN pip install elasticsearch numpy configparser statistics
-RUN git clone https://github.com/cloud-bulldozer/snafu /opt/snafu
+RUN git clone --branch development https://github.com/cloud-bulldozer/snafu /opt/snafu
